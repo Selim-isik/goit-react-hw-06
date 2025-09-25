@@ -4,7 +4,6 @@ import storage from "redux-persist/lib/storage";
 import contactsReducer from "./contactsSlice";
 import filtersReducer from "./filtersSlice";
 
-// sadece contacts.items persist edilecek
 const contactsPersistConfig = {
   key: "contacts",
   storage,
